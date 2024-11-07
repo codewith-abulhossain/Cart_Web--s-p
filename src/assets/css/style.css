@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav-logo{
+    height: 35px;
+    width: auto;
+}
+html{
+    font-family: "Poppins", sans-serif !important;
+}
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTQ0MSIgaGVpZ2h0PSI4MTEiIHZpZXdCb3g9IjAgMCAxNDQxIDgxMSI+DQogIDxkZWZzPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1ib2R5Ij4NCiAgICAgIDxyZWN0IHdpZHRoPSIxNDQxIiBoZWlnaHQ9IjgxMSIvPg0KICAgIDwvY2xpcFBhdGg+DQogIDwvZGVmcz4NCiAgPGcgaWQ9ImJvZHkiIGNsaXAtcGF0aD0idXJsKCNjbGlwLWJvZHkpIj4NCiAgICA8cmVjdCB3aWR0aD0iMTQ0MSIgaGVpZ2h0PSI4MTEiIGZpbGw9IiNmNmYzZmUiLz4NCiAgICA8ZyBpZD0iR3JvdXBfMTAzNyIgZGF0YS1uYW1lPSJHcm91cCAxMDM3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjguODI1IC0xODcwLjYwNCkiIG9wYWNpdHk9IjAuMjciPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMzU0IiBkYXRhLW5hbWU9IlBhdGggMzU0IiBkPSJNMTg2Ny45NjQsMjg4Ny4xYzAsMzcwLjMtMzAxLjE5NCw2NzEuMS02NzMuNDgyLDY3MS4xUzUyMSwzMjU3LjQwNiw1MjEsMjg4Ny4xLDgyMi4xOTEsMjIxNiwxMTk0LjQ4MiwyMjE2LDE4NjcuOTY0LDI1MTYuOCwxODY3Ljk2NCwyODg3LjFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4Ni4wMzUpIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmRmZGIiIHN0cm9rZS13aWR0aD0iMjAwIi8+DQogICAgICA8ZyBpZD0iR3JvdXBfOTE0IiBkYXRhLW5hbWU9Ikdyb3VwIDkxNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjUuNDE4IDI5OTAuMzU1KSI+DQogICAgICAgIDxwYXRoIGlkPSJQYXRoXzM1NSIgZGF0YS1uYW1lPSJQYXRoIDM1NSIgZD0iTTY1LjQxOCwyODk4LjgxOWE4OS42Nyw4OS42NywwLDAsMCwxMjIuNTg4LTMxLjQ2OSw4OS42NTEsODkuNjUxLDAsMCwwLDMxLjUyNywxMjIuODA4LDg5LjY2OSw4OS42NjksMCwwLDAtMTIyLjU4OCwzMS40NjlBODkuNjQ5LDg5LjY0OSwwLDAsMCw2NS40MTgsMjg5OC44MTlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjUuNDE4IC0yODY3LjM1KSIgZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIi8+DQogICAgICA8L2c+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 13px;
+}
+.btn{
+    padding: 8px 16px 8px 16px !important;
+    font-size: 12px !important;
+}
+
+.section{
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+}
+
+.loader-div{
+    position: absolute;
+    z-index: 10000!important;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 252, 252, 0.5) !important;
+}
+.loading-img{
+    width:80px
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}

@@ -1,0 +1,13 @@
+1. Project Creation
+2. Project CSS and Assets & Packages
+    - npm i bootstrap
+    - npm i react-bootstrap
+    - npm i react-hot-toast
+    - npm i axios
+    - npm i react-router-dom
+
+3. Project Skeleton
+4. Project Page Route Components
+
+5. Call Product list API
+8. User Login API Call
